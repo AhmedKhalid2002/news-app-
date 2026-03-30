@@ -1,55 +1,31 @@
 {
   "pages": {
-    "/not-found": [
+    "/(markting)/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+      "static/chunks/app/(markting)/page.js"
     ],
-    "/layout": [
+    "/(markting)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/css/app/(markting)/layout.css",
+      "static/chunks/app/(markting)/layout.js"
     ],
-    "/news/[slug]/layout": [
+    "/(contant)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/layout.js"
+      "static/css/app/(contant)/layout.css",
+      "static/chunks/app/(contant)/layout.js"
     ],
-    "/news/[slug]/not-found": [
+    "/(contant)/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/not-found.js"
+      "static/chunks/app/(contant)/not-found.js"
     ],
-    "/news/[slug]/image/page": [
+    "/(contant)/news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/image/page.js"
-    ],
-    "/news/[slug]/@modal/default": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/@modal/default.js"
-    ],
-    "/news/[slug]/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/page.js"
-    ],
-    "/news/[slug]/@modal/(.)image/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/[slug]/@modal/(.)image/page.js"
-    ],
-    "/news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/news/page.js"
-    ],
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+      "static/chunks/app/(contant)/news/page.js"
     ]
   }
 }

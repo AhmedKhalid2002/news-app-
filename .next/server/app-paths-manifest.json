@@ -1,7 +1,4 @@
 {
-  "/news/page": "app/news/page.js",
-  "/page": "app/page.js",
-  "/news/[slug]/image/page": "app/news/[slug]/image/page.js",
-  "/news/[slug]/page": "app/news/[slug]/page.js",
-  "/news/[slug]/@modal/(.)image/page": "app/news/[slug]/@modal/(.)image/page.js"
+  "/(contant)/news/page": "app/(contant)/news/page.js",
+  "/(markting)/page": "app/(markting)/page.js"
 }
