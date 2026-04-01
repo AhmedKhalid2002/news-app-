@@ -10,22 +10,6 @@
       "static/chunks/main-app.js",
       "static/css/app/(markting)/layout.css",
       "static/chunks/app/(markting)/layout.js"
-    ],
-    "/(contant)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(contant)/layout.css",
-      "static/chunks/app/(contant)/layout.js"
-    ],
-    "/(contant)/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(contant)/not-found.js"
-    ],
-    "/(contant)/news/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/(contant)/news/page.js"
     ]
   }
 }
